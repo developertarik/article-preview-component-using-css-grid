@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+
+body{
+    background-color:hsl(210,46%,95%);
+}
+
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 20.2em 37em;
+    justify-content: center;
+    position: relative;
+    
+    top:10em;
+}
+.drawers-img{
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+    width:25em;
+}
+.grid-item-header{
+    background:white;
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+    padding-left: 3em;
+    padding-top: 3em;
+    font-size: 0.9em;
+}
+.paragraph{
+    color:hsl(212, 23%, 69%);
+    font-size: 1.4em;
+    line-height: 1.4;
+}
+.header{
+    font-family: "Monrope",sans-serif;
+    margin-bottom: 10px;
+    color:hsl(217,19%,35%);
+}
+/*footer*/
+.Michelle{
+    border-radius: 100px;
+    width:2.5em;
+    float:left;
+
+}
+.footer{
+    position: relative;
+    bottom:-8px;
+}   
+p{
+    display: inline;
+}
+h1{
+    display: inline;
+}
+.name{
+    color: hsl(217,19%,35%);
+    font-family: "Monrope",sans-serif;
+    font-size: large;
+}
+.name,.date{
+    margin-left:10px;
+}
+.share-button{
+    width:2em;
+    height: 35px;
+    border-radius: 100px;
+    border-color:unset;
+    position: absolute;
+    right: 3em;
+    bottom: 1.3em;
+}
+.share{
+    color:grey;
+}
