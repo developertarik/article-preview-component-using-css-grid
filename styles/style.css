@@ -8,7 +8,7 @@ body{
 
 .grid-container{
     display:grid;
-    grid-template-columns: 20.2em 37em;
+    grid-template-columns: 20.2em 34em;
     justify-content: center;
     position: relative;
     
